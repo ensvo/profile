@@ -1,5 +1,5 @@
 body {
-  background-color: #F7F7F7;
+  background-color: #DFE3CA;
   font-family: 'Lato', sans-serif;
   color: #523249;
   font-size: 100%;
@@ -7,16 +7,24 @@ body {
   text-align: center;
 }
 
-h1, h2 {
+h1 {
   font-family: 'Staatliches', cursive;
-  color: #33998B;
+  color: #30AC9C;
+}
+
+h2 {
+  font-family: 'Staatliches', cursive;
+  color: #30AC9C;
 }
 
 a {
   background-color: #EE4266;
+  font-family: 'Staatliches', cursive;
+  font-weight: bold;
   text-decoration: none;
   color: #F7F7F7;
   padding: 8px;
+  border-radius: 10px;
 }
 
 a:hover {
@@ -35,18 +43,17 @@ ul {
 }
 
 .card {
-  background: white;
+  background-color: #F7F8F2;
   padding: 30px;
-  border: 10px;
+  border: 1px solid black;
   border-radius: 5px;
-  box-shadow: 2px 2px 2px #e0e0e0;
+  box-shadow: 3px 3px black;
   margin: 10px;
 }
 
-.list-inline > li {
-  display: inline-block;
-  padding: 0px 5px;
-  margin-top: 16px;
+.card > img {
+  border-radius: 50%;
+  border: 3px dotted #EE4266;
 }
 
 .list-inline {
@@ -54,8 +61,10 @@ ul {
   padding-left: 0px;
 }
 
-#img-circle {
-  border-radius: 50%;
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 5px;
+  margin-top: 16px;
 }
 
 @media (max-width: 960px) {
